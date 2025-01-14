@@ -55,8 +55,11 @@ body {
     font-size: 2.86em;
     font-weight: 600;
     letter-spacing: -0.5px;
+    margin-bottom: 16px;
 }
-
+.info-item {
+    font-size: 14px;
+}
 .resume h2 {
     font-size: 1.43em;
     font-weight: 600;
@@ -136,13 +139,13 @@ body {
 
 .resume .resume__main {
     float: left;
-    width: 75%;
-    padding-right: 6em;
+    width: 70%;
+    padding-right: 4em;
 }
 
 .resume .resume__side {
     float: left;
-    width: 25%;
+    width:30%;
 }
 
 .resume .other-info p>b {
@@ -179,7 +182,7 @@ body {
     margin-bottom: 0;
 }
 
-.resume .xp-job {
+.resume .xp-job,.extra-info {
     font-size: 1.14em;
     font-weight: 600;
     line-height: 1.25;
@@ -210,9 +213,12 @@ body {
 }
 
 .resume .extra-info small {
-    color: #666;
+    /* color: #666; */
     display: inline-block;
-    font-size: 0.7em;
+    font-size: 0.9em;
+    color: #5695cd;
+    margin-top: 0.5em;
+    line-height: normal;
 }
 
 .resume .extra-details,
